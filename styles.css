@@ -1,0 +1,204 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.btn {
+    font-weight: 700;
+    padding: 15px 30px;
+    margin-top: 20px;
+    font-size: 15px;
+    color: white;
+    background-color: #ff267b;
+    border-radius: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.nav {
+    text-align: right;
+    margin: 25px 50px 10px 0;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+}
+
+.intro-section {
+    margin: 50px auto;
+    text-align: left;
+    height: 500px;
+}
+
+.intro-section .text {
+    margin-top: 50px;
+}
+
+.intro-section h1,
+h3 {
+    text-transform: uppercase;
+    font-size: 70px;
+    margin: 0;
+}
+
+.intro-section h3 {
+    color: #fb6957;
+
+}
+
+.intro-section p {
+    margin: 20px auto 30px auto;
+    font-size: 15px;
+}
+
+.intro-section .half-width {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    height: 400px;
+}
+
+.intro-section .half-width img {
+    margin-top: 0px;
+    width: 80%;
+}
+
+.about .text h3 {
+    font-size: 50px;
+    color: #5352d7;
+}
+
+
+.projects-section {
+    margin: 100px auto 600px auto;
+
+}
+
+.projects-section .text {
+    text-transform: uppercase;
+    text-align: center;
+    margin: 50px auto;
+}
+.projects-section .text h3 {
+    font-size: 40px;
+}
+.projects-section .text h3 span {
+    color: #ff1a1a;
+}
+
+.project-group {
+    width: 100%;
+}
+.project {
+    background-color: burlywood;
+    width: 26%;
+    float: left;
+    padding: 20px;
+    margin: 50px 25px;
+    border-radius: 20px;
+}
+.projects-section .project .image {
+    margin: 20px;
+}
+.projects-section .project .image img{
+    width: 80%;
+}
+.project h4 {
+    font-size: 20px;
+}
+.project p {
+    font-size: 15px;
+}
+
+
+.inquiry-section {
+    margin: 650px auto 100px auto;
+    color: white;
+}
+.inquiry {
+    margin: 0 auto;
+    background-image: url("images/Group_33094_1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    width: 60%;
+    text-align: center;
+}
+.inquiry h3 {
+    margin-top: -20px;
+    font-size: 50px;
+    float: left;
+}
+.inquiry .text {
+    padding-top: 90px;
+    margin: 40px 50px 20px;
+
+}
+.inquiry-section .inquiry .text .btn {
+    margin-top: 20px;
+}
+
+
+.experience {
+margin: 5px 80px 30px;
+/* background-color: aqua; */
+height: 400px;
+padding-top: 50px;
+}
+.experience h1 {
+    text-align: center;
+    font-size: 50px;
+}
+.experience .bar {
+    width: 90%;
+    background-color: black;
+    height: 20px;
+}
+.experience .bar .html-progress {
+    width: 50%;
+    height: 20px;
+    background-color: #33cc33;
+}
+.experience .bar .css-progress {
+    width: 30%;
+    height: 20px;
+    background-color: #33cc33;
+}
+.progress {
+    display: inline;
+}
+
+
+
+
+
+.footer-section {
+    text-align: center;
+    margin: 70px auto 50px;
+}
+.footer p {
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 20px auto;
+}
+.footer h4 {
+    font-size: 30px;
+    margin: 20px auto;
+}
+.icon {
+    width: 30px;
+    margin: auto 10px;
+}
